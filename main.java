@@ -5,9 +5,11 @@ public class Main{
         System.out.println("main");
     }
 
-    public static void main(String[] args){
-       say();
-        Hello hello=new Hello();
-        hello.say("hello world");
+    public static void main(String[] args)
+    {
+        say();
+        Hello hello=new Hello("hello world");
+        hello.say();
     }
+    
 }
